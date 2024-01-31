@@ -16,14 +16,14 @@
     <div class="container">
         <div class="to-do-app">
 
-            <h1>To do List</h1>
+            <h1>To Do's<span id="todohead"></span></h1>
             
             <div class="row"> 
                 <input type="text" id="taskInput" placeholder="Add your Task" >
                 <button id="addTask" onclick="addTaskInput()"><i class="ri-add-line" style="font-size: 2rem;padding: 15px;"></i></button>
             </div>
             <ul id="list-items" class="list-items-class">
-                <!-- <li><i class="ri-task-fill"></i>hello</li> -->
+                <li><i id="a" class="ri-checkbox-blank-line" style="color: #4f46e5;margin-right:12px;cursor: pointer;" onclick="changeIcon()"></i>${taskinput.value} <i class="ri-delete-bin-line" style="float: right; margin-right: 10px; cursor: pointer;" onclick="deletetask()"></i></li>
             </ul>
         </div>
     </div>

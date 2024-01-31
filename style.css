@@ -72,14 +72,14 @@ body{
 ul > li{
     text-decoration: none;
     list-style: none;
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(255, 255, 255);
     text-align: left;
     padding:10px;
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 1.5rem;
-    text-transform: uppercase;
+    border: 0.2px solid;
 }
 /* ul > li > i{
     font-size:3rem;
@@ -94,6 +94,12 @@ ul > li{
     position: absolute;
     background-color: rgb(4, 168, 4);
     top: 0;
+}
+#todohead{
+    font-size: medium;
+    font-weight: 400;
+    float: right;
+    color: rgb(123, 123, 123);
 }
 
 
